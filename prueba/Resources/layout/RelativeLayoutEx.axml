@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageLogin"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_below="@id/imageLogin"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Registro"
+        android:textSize="18dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginTextView" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_green_dark"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_margin="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/loginTextView"
+        android:id="@+id/container_one">
+        <TextView
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="Nombre"
+            android:id="@+id/nameTextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="0.8"
+            android:id="@+id/nameEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:inputType="text" />
+    </LinearLayout>
+    <TextView
+        android:layout_below="@id/container_one"
+        android:gravity="center"
+        android:text="Password"
+        android:id="@+id/passwordTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17.3dp"
+        android:layout_alignParentLeft="true" />
+    <EditText
+        android:layout_below="@id/container_one"
+        android:layout_toRightOf="@id/passwordTextview"
+        android:id="@+id/passwordEditText"
+        android:layout_width="240.0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:inputType="text"
+        android:layout_marginLeft="18.7dp"
+        android:layout_marginRight="14.7dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

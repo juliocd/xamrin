@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<style name="CustomCheckBox">
+	    <item name="android:theme">@style/CheckBoxAppTheme</item>
+		<item name="android:textColor">
+            @color/blue_color_2
+        </item>
+		      <item name="android:layout_width">
+            match_parent
+        </item>
+        <item name="android:layout_height">
+            wrap_content
+        </item>
+	</style>
+	<style name="CheckBoxAppTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+	    <item name="android:buttonTint">
+	        @color/blue_color
+	    </item>
+	</style>
+	
+</resources>
+
