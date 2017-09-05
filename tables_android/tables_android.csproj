@@ -58,6 +58,8 @@
     <Compile Include="Implementations\SimpleTableActivitiy.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Content\CustomListAdapter.cs" />
+    <Compile Include="Implementations\TablaSimpleActivity.cs" />
+    <Compile Include="Implementations\TablaAdaptadorActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -86,6 +88,8 @@
     <AndroidResource Include="Resources\drawable\jupiter.jpg" />
     <AndroidResource Include="Resources\drawable\earth.jpg" />
     <AndroidResource Include="Resources\drawable\default_image.jpeg" />
+    <AndroidResource Include="Resources\layout\TablaSimple.axml" />
+    <AndroidResource Include="Resources\layout\TablaAdaptador.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 using System.Collections.ObjectModel;
+using tables_android.Implementations;
 
 namespace tables_android
 {
@@ -21,9 +22,27 @@ namespace tables_android
             // and attach an event to it
             Button simpleTableButton = FindViewById<Button>(Resource.Id.simpleTableButton);
             Button adapterTableButton = FindViewById<Button>(Resource.Id.adapterTableButton);
+            Button tablaSimpleBoton = FindViewById<Button>(Resource.Id.tablaSimpleBoton);
+            Button tablaAdaptadorBoton = FindViewById<Button>(Resource.Id.tablaAdaptadorBoton);
 
             simpleTableButton.Click += SimpleTableButton_Click;
             adapterTableButton.Click += AdapterTableButton_Click;
+            tablaSimpleBoton.Click += (object sender, System.EventArgs e) => {
+                Button button = (Button)sender;
+
+                var intent = new Intent(this, typeof(TablaSimpleActivity));
+                intent.PutExtra("titulo", "Tabla Simple");
+                StartActivity(intent);
+            };
+            tablaAdaptadorBoton.Click += TablaAdaptadorBoton_Click;
+
+        }
+
+        void TablaAdaptadorBoton_Click(object sender, System.EventArgs e)
+        {
+            var intent = new Intent(this, typeof(TablaAdaptadorActivity));
+            intent.PutExtra("titulo", "Tabla Adaptador");
+            StartActivity(intent);
         }
 
         void SimpleTableButton_Click(object sender, System.EventArgs e)

@@ -13,4 +13,14 @@
         android:text="@string/simple_table"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablaSimpleBoton"
+        android:text="Tabla simple 2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablaAdaptadorBoton"
+        android:text="Tabla Adaptador 2" />
 </LinearLayout>
