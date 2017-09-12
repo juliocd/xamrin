@@ -1603,8 +1603,11 @@ namespace tables_android
 			// aapt resource value: 0x7f0c0009
 			public const int listMode = 2131492873;
 			
+			// aapt resource value: 0x7f0c006c
+			public const int listView1 = 2131492972;
+			
 			// aapt resource value: 0x7f0c006a
-			public const int listView1 = 2131492970;
+			public const int listViewAdapter = 2131492970;
 			
 			// aapt resource value: 0x7f0c0028
 			public const int list_item = 2131492904;
@@ -1741,8 +1744,11 @@ namespace tables_android
 			// aapt resource value: 0x7f0c0034
 			public const int textSpacerNoButtons = 2131492916;
 			
+			// aapt resource value: 0x7f0c006b
+			public const int textView1 = 2131492971;
+			
 			// aapt resource value: 0x7f0c0069
-			public const int textView1 = 2131492969;
+			public const int textViewAdapter = 2131492969;
 			
 			// aapt resource value: 0x7f0c005f
 			public const int time = 2131492959;

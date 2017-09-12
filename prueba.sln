@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactAccentureAndroid", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "native_hamburguer_menu", "..\native_hamburger_menu\becol\native_hamburguer_menu.csproj", "{A045C277-5A8B-451D-8B58-0F48F3181959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tab_android", "tab_android\tab_android.csproj", "{5343D474-560F-46C7-96BE-CAA4F393A35E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{A045C277-5A8B-451D-8B58-0F48F3181959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A045C277-5A8B-451D-8B58-0F48F3181959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A045C277-5A8B-451D-8B58-0F48F3181959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5343D474-560F-46C7-96BE-CAA4F393A35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5343D474-560F-46C7-96BE-CAA4F393A35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5343D474-560F-46C7-96BE-CAA4F393A35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5343D474-560F-46C7-96BE-CAA4F393A35E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

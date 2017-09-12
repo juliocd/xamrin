@@ -57,9 +57,10 @@
     <Compile Include="Implementations\MainActivity.cs" />
     <Compile Include="Implementations\SimpleTableActivitiy.cs" />
     <Compile Include="Models\Post.cs" />
-    <Compile Include="Content\CustomListAdapter.cs" />
     <Compile Include="Implementations\TablaSimpleActivity.cs" />
     <Compile Include="Implementations\TablaAdaptadorActivity.cs" />
+    <Compile Include="Models\Planeta.cs" />
+    <Compile Include="Implementations\CustomListAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -95,7 +96,7 @@
     <Folder Include="Resources\drawable\" />
     <Folder Include="Models\" />
     <Folder Include="Implementations\" />
-    <Folder Include="Content\" />
+    <Folder Include="Controls\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

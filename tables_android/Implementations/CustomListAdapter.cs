@@ -43,7 +43,8 @@ namespace tables_android.Content
 				view = context.LayoutInflater.Inflate(Resource.Layout.ListItemRow, parent, false);
 
 			Post item = this[position];
-			view.FindViewById<TextView>(Resource.Id.Title).Text = item.Title;
+            TextView titulo = view.FindViewById<TextView>(Resource.Id.Title);
+			titulo.Text = item.Title;
 			view.FindViewById<TextView>(Resource.Id.Description).Text = item.Description;
             var imageView = view.FindViewById<ImageView>(Resource.Id.Thumbnail);
 
