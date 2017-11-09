@@ -20,7 +20,7 @@ namespace becol
 
 		private void Initialize(int pTitleResId, int pDescriptionResId, Intent pIntent)
 		{
-			this.intent = pIntent;
+			this.intent = pIntents;
 			this.titleResId = pTitleResId;
 			this.descriptionResId = pDescriptionResId;
 		}
